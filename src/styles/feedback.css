@@ -1,0 +1,21 @@
+.feedback{background:var(--color-surface);position:relative}
+.feedback-inner{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-16);align-items:center}
+.feedback-content{position:relative;z-index:1}
+.feedback-form-card{background:var(--color-bg);border:1px solid var(--color-border);border-radius:var(--radius-xl);padding:var(--space-10);box-shadow:var(--shadow-lg)}
+.form-group{position:relative;margin-bottom:var(--space-6)}
+.form-label{display:block;font-size:var(--fs-sm);font-weight:var(--fw-medium);color:var(--color-text-sec);margin-bottom:var(--space-2)}
+.form-input,.form-select,.form-textarea{width:100%;padding:var(--space-4);background:var(--color-surface);border:1.5px solid var(--color-border);border-radius:var(--radius-md);font-size:var(--fs-base);color:var(--color-text);transition:all var(--transition-normal);outline:none}
+.form-input:focus,.form-select:focus,.form-textarea:focus{border-color:var(--color-accent);box-shadow:0 0 0 4px var(--color-accent-glow)}
+.form-input::placeholder,.form-textarea::placeholder{color:var(--color-text-muted)}
+.form-textarea{min-height:120px;resize:vertical}
+.form-select{appearance:none;cursor:pointer;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23666' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center;padding-right:44px}
+.form-group.error .form-input,.form-group.error .form-select,.form-group.error .form-textarea{border-color:var(--color-danger)}
+.form-group.error .form-label{color:var(--color-danger)}
+.form-error{font-size:var(--fs-xs);color:var(--color-danger);margin-top:var(--space-1);opacity:0;transition:all var(--transition-fast)}
+.form-group.error .form-error{opacity:1}
+@keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(4px)}}
+.form-group.shake{animation:shake 400ms var(--ease-out-expo)}
+.form-submit{width:100%;padding:var(--space-4);margin-top:var(--space-4);font-size:var(--fs-base);border-radius:var(--radius-md)}
+.form-submit.success{background:#34c759;box-shadow:0 4px 20px rgba(52,199,89,0.3)}
+@media(max-width:1024px){.feedback-inner{grid-template-columns:1fr;gap:var(--space-10)}.feedback-content{text-align:center}.feedback-content .section-subtitle{margin-inline:auto}}
+@media(max-width:640px){.feedback-form-card{padding:var(--space-6)}}

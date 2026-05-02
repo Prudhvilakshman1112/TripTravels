@@ -1,0 +1,253 @@
+[
+  {
+    "id": "tirupati-divine", "category": "devotional", "title": "Tirupati Divine Darshan",
+    "duration": "3 Days / 2 Nights", "price": "₹8,999", "priceNote": "per person",
+    "location": "Tirupati, AP", "image": "tirupati",
+    "description": "Experience the divine grace of Lord Venkateswara with our premium Tirupati package. Includes VIP darshan, comfortable AC transport from Vizag, and stay at a handpicked hotel near Tirumala hills.",
+    "highlights": ["VIP Darshan Pass", "AC Sleeper Transport", "Premium Hotel Stay", "All Meals Included", "Temple Guide", "Laddu Prasadam"],
+    "coordinates": [13.6288, 79.4192],
+    "mapTeaser": "Sacred abode of Lord Venkateswara atop the seven hills of Tirumala.",
+    "itinerary": [
+      {"day": 1, "title": "Departure from Vizag", "desc": "Board AC sleeper bus from Vizag. Overnight journey with dinner en route."},
+      {"day": 2, "title": "VIP Darshan at Tirumala", "desc": "Early morning VIP darshan at Tirumala temple. Visit Padmavathi Temple. Check into hotel. Evening at leisure."},
+      {"day": 3, "title": "Return to Vizag", "desc": "Breakfast at hotel. Visit Kapila Theertham. Depart for Vizag with memories and blessings."}
+    ],
+    "gallery": ["tirupati", "varanasi", "hyderabad"]
+  },
+  {
+    "id": "varanasi-spiritual", "category": "devotional", "title": "Varanasi Spiritual Journey",
+    "duration": "5 Days / 4 Nights", "price": "₹14,999", "priceNote": "per person",
+    "location": "Varanasi, UP", "image": "varanasi",
+    "description": "Witness the timeless Ganga Aarti, explore ancient temples, and cruise the sacred ghats of Kashi. A soul-stirring journey through India's spiritual capital.",
+    "highlights": ["Ganga Aarti Experience", "Boat Ride at Sunrise", "Kashi Vishwanath Darshan", "Sarnath Day Trip", "Flight Tickets", "4-Star Hotel"],
+    "coordinates": [25.3176, 82.9739],
+    "mapTeaser": "The eternal city of light — where the sacred Ganges meets ancient tradition.",
+    "itinerary": [
+      {"day": 1, "title": "Arrival in Varanasi", "desc": "Flight from Vizag. Airport transfer, check-in at 4-star hotel. Evening Ganga Aarti."},
+      {"day": 2, "title": "Sunrise Boat Ride & Temples", "desc": "Sunrise boat ride on the Ganges. Visit Kashi Vishwanath Temple, Annapurna Temple."},
+      {"day": 3, "title": "Sarnath Excursion", "desc": "Day trip to Sarnath — where Buddha gave his first sermon. Museum and ruins."},
+      {"day": 4, "title": "Cultural Varanasi", "desc": "Explore silk weaving centers, Banaras Hindu University, and evening at ghats."},
+      {"day": 5, "title": "Departure", "desc": "Breakfast and airport transfer. Return flight to Vizag."}
+    ],
+    "gallery": ["varanasi", "tirupati", "hyderabad"]
+  },
+  {
+    "id": "hyderabad-heritage", "category": "devotional", "title": "Hyderabad Heritage & Devotion",
+    "duration": "3 Days / 2 Nights", "price": "₹7,499", "priceNote": "per person",
+    "location": "Hyderabad, Telangana", "image": "hyderabad",
+    "description": "Explore the City of Pearls — from the iconic Charminar to the serene Birla Mandir. Savor legendary Hyderabadi biryani and shop at Laad Bazaar.",
+    "highlights": ["Charminar Visit", "Birla Mandir", "Ramoji Film City", "Authentic Biryani", "AC Transport", "3-Star Stay"],
+    "coordinates": [17.385, 78.4867],
+    "mapTeaser": "The City of Pearls — iconic Charminar, royal heritage, and legendary cuisine.",
+    "itinerary": [
+      {"day": 1, "title": "Arrival & Old City", "desc": "Arrive in Hyderabad. Visit Charminar, Laad Bazaar. Authentic biryani dinner."},
+      {"day": 2, "title": "Temples & Film City", "desc": "Morning at Birla Mandir. Full day at Ramoji Film City."},
+      {"day": 3, "title": "Return", "desc": "Visit Golconda Fort. Depart for Vizag."}
+    ],
+    "gallery": ["hyderabad", "tirupati", "varanasi"]
+  },
+  {
+    "id": "vizag-coastal", "category": "devotional", "title": "Vizag Temple & Coastal Tour",
+    "duration": "2 Days / 1 Night", "price": "₹4,999", "priceNote": "per person",
+    "location": "Visakhapatnam, AP", "image": "hero-vizag",
+    "description": "Discover the jewel of the East Coast — from the sacred Simhachalam Temple to the stunning Araku Valley.",
+    "highlights": ["Simhachalam Temple", "Araku Valley Trip", "Kailasagiri Ropeway", "Beach Road Tour", "Local Cuisine", "Resort Stay"],
+    "coordinates": [17.6868, 83.2185],
+    "mapTeaser": "Jewel of the East Coast — beaches, temples, and the breathtaking Araku Valley.",
+    "itinerary": [
+      {"day": 1, "title": "Temple & Beaches", "desc": "Simhachalam Temple, Kailasagiri Ropeway, RK Beach, Submarine Museum."},
+      {"day": 2, "title": "Araku Valley", "desc": "Full-day Araku Valley trip. Borra Caves, coffee plantations. Return evening."}
+    ],
+    "gallery": ["hero-vizag", "rishikesh", "goa"]
+  },
+  {
+    "id": "rishikesh-adventure", "category": "summer", "title": "Rishikesh Adventure Escape",
+    "duration": "5 Days / 4 Nights", "price": "₹16,999", "priceNote": "per person",
+    "location": "Rishikesh, Uttarakhand", "image": "rishikesh",
+    "description": "Conquer the rapids of the Ganges, trek through Himalayan trails, and find your zen in the Yoga Capital of the World.",
+    "highlights": ["River Rafting Grade 3-4", "Bungee Jumping", "Camping by Ganges", "Beatles Ashram Visit", "All Adventure Gear", "Expert Guides"],
+    "coordinates": [30.0869, 78.2676],
+    "mapTeaser": "Yoga Capital of the World — white-water rapids and Himalayan adventures.",
+    "itinerary": [
+      {"day": 1, "title": "Arrival & Camp Setup", "desc": "Arrive in Rishikesh. Transfer to riverside camp. Evening bonfire."},
+      {"day": 2, "title": "River Rafting", "desc": "16km Grade 3-4 rapids. Cliff jumping. Beach volleyball."},
+      {"day": 3, "title": "Bungee & Trekking", "desc": "Bungee jumping at Jumpin Heights. Afternoon nature trek."},
+      {"day": 4, "title": "Beatles Ashram & Yoga", "desc": "Visit Beatles Ashram. Sunrise yoga session. Laxman Jhula."},
+      {"day": 5, "title": "Departure", "desc": "Morning at leisure. Transfer to airport/station."}
+    ],
+    "gallery": ["rishikesh", "manali", "goa"]
+  },
+  {
+    "id": "goa-beach", "category": "summer", "title": "Goa Beach Paradise",
+    "duration": "4 Days / 3 Nights", "price": "₹12,999", "priceNote": "per person",
+    "location": "Goa", "image": "goa",
+    "description": "Sun, sand, and spectacular sunsets. Explore pristine beaches, Portuguese heritage, vibrant nightlife, and world-class seafood.",
+    "highlights": ["Beach Hopping Tour", "Water Sports Package", "Old Goa Churches", "Spice Plantation", "Flight Tickets", "Beachfront Resort"],
+    "coordinates": [15.2993, 74.124],
+    "mapTeaser": "India's sunshine state — golden beaches, Portuguese charm, and vibrant nightlife.",
+    "itinerary": [
+      {"day": 1, "title": "Arrival & North Goa", "desc": "Flight to Goa. Check-in at beachfront resort. Evening at Baga Beach."},
+      {"day": 2, "title": "Water Sports & Beaches", "desc": "Parasailing, jet ski, banana ride. Visit Anjuna and Vagator beaches."},
+      {"day": 3, "title": "South Goa & Heritage", "desc": "Old Goa churches. Spice plantation tour. Palolem Beach sunset."},
+      {"day": 4, "title": "Departure", "desc": "Breakfast. Last-minute shopping at flea market. Airport transfer."}
+    ],
+    "gallery": ["goa", "rishikesh", "manali"]
+  },
+  {
+    "id": "manali-snow", "category": "summer", "title": "Manali Snow & Mountains",
+    "duration": "6 Days / 5 Nights", "price": "₹18,999", "priceNote": "per person",
+    "location": "Manali, HP", "image": "manali",
+    "description": "Breathe in the crisp mountain air, drive through the legendary Rohtang Pass, and witness snow-capped peaks.",
+    "highlights": ["Rohtang Pass Excursion", "Solang Valley Activities", "Hadimba Temple", "Mall Road", "Volvo Transport", "Mountain View Hotel"],
+    "coordinates": [32.2396, 77.1887],
+    "mapTeaser": "Himalayan paradise — snow-capped peaks, pine forests, and mountain adventures.",
+    "itinerary": [
+      {"day": 1, "title": "Delhi to Manali", "desc": "Overnight Volvo from Delhi. Scenic journey through mountains."},
+      {"day": 2, "title": "Arrival & Local Sightseeing", "desc": "Check-in. Visit Hadimba Temple, Vashisht Hot Springs. Mall Road evening."},
+      {"day": 3, "title": "Solang Valley", "desc": "Adventure day — paragliding, zorbing, skiing (seasonal). Snow activities."},
+      {"day": 4, "title": "Rohtang Pass", "desc": "Full-day Rohtang Pass excursion. Snow point. Stunning views."},
+      {"day": 5, "title": "Kullu & Manikaran", "desc": "Kullu river rafting. Hot springs at Manikaran Gurudwara."},
+      {"day": 6, "title": "Departure", "desc": "Breakfast. Depart by Volvo to Delhi."}
+    ],
+    "gallery": ["manali", "rishikesh", "goa"]
+  },
+  {
+    "id": "dubai-luxury", "category": "international", "title": "Dubai Luxury Experience",
+    "duration": "5 Days / 4 Nights", "price": "₹54,999", "priceNote": "per person",
+    "location": "Dubai, UAE", "image": "dubai",
+    "description": "Live the dream in the city of gold. From the Burj Khalifa observation deck to a desert safari under the stars.",
+    "highlights": ["Burj Khalifa Tickets", "Desert Safari & BBQ", "Dubai Mall & Fountain", "Dhow Cruise Dinner", "Return Flights", "4-Star Hotel"],
+    "coordinates": [25.2048, 55.2708],
+    "mapTeaser": "City of Gold — futuristic skyline, desert safaris, and unmatched luxury.",
+    "itinerary": [
+      {"day": 1, "title": "Arrival in Dubai", "desc": "Airport transfer. Hotel check-in. Evening at Dubai Marina Walk."},
+      {"day": 2, "title": "Burj Khalifa & Dubai Mall", "desc": "At the Top observation deck. Dubai Mall, Aquarium, Fountain Show."},
+      {"day": 3, "title": "Desert Safari", "desc": "Dune bashing, camel riding, sandboarding. BBQ dinner under stars."},
+      {"day": 4, "title": "City Tour & Dhow Cruise", "desc": "Old Dubai, Gold Souk, Spice Souk. Evening Dhow Cruise dinner."},
+      {"day": 5, "title": "Departure", "desc": "Morning shopping at Mall of Emirates. Airport transfer."}
+    ],
+    "gallery": ["dubai", "singapore", "bali"]
+  },
+  {
+    "id": "thailand-tropical", "category": "international", "title": "Thailand Tropical Bliss",
+    "duration": "6 Days / 5 Nights", "price": "₹42,999", "priceNote": "per person",
+    "location": "Bangkok & Pattaya", "image": "thailand",
+    "description": "From the glittering temples of Bangkok to the tropical beaches of Pattaya — the Land of Smiles awaits.",
+    "highlights": ["Grand Palace Tour", "Pattaya Beach & Islands", "Thai Massage", "Floating Market", "Return Flights", "Premium Hotels"],
+    "coordinates": [13.7563, 100.5018],
+    "mapTeaser": "Land of Smiles — golden temples, tropical islands, and vibrant street life.",
+    "itinerary": [
+      {"day": 1, "title": "Arrival in Bangkok", "desc": "Airport transfer. Check-in. Evening at Khao San Road."},
+      {"day": 2, "title": "Bangkok Temples", "desc": "Grand Palace, Wat Pho, Wat Arun. River boat tour."},
+      {"day": 3, "title": "Floating Market & Transfer", "desc": "Damnoen Saduak Floating Market. Transfer to Pattaya."},
+      {"day": 4, "title": "Pattaya Beaches", "desc": "Coral Island, water sports, parasailing. Walking Street evening."},
+      {"day": 5, "title": "Nong Nooch & Massage", "desc": "Nong Nooch Garden. Traditional Thai massage. Shopping."},
+      {"day": 6, "title": "Departure", "desc": "Transfer to Bangkok airport. Return flight."}
+    ],
+    "gallery": ["thailand", "bali", "singapore"]
+  },
+  {
+    "id": "bali-paradise", "category": "international", "title": "Bali Island Paradise",
+    "duration": "7 Days / 6 Nights", "price": "₹59,999", "priceNote": "per person",
+    "location": "Bali, Indonesia", "image": "bali",
+    "description": "Discover the Island of the Gods. From emerald rice terraces to sacred water temples — a visual feast.",
+    "highlights": ["Ubud Rice Terraces", "Uluwatu Temple Sunset", "Nusa Penida Snorkeling", "Traditional Spa Day", "Return Flights", "Private Villa Stay"],
+    "coordinates": [-8.3405, 115.092],
+    "mapTeaser": "Island of the Gods — emerald rice terraces, sacred temples, and paradise beaches.",
+    "itinerary": [
+      {"day": 1, "title": "Arrival in Bali", "desc": "Airport transfer. Private villa check-in. Welcome dinner."},
+      {"day": 2, "title": "Ubud Culture", "desc": "Tegallalang Rice Terraces, Monkey Forest, Ubud Art Market."},
+      {"day": 3, "title": "Water Temples", "desc": "Tirta Empul purification. Tirta Gangga water palace."},
+      {"day": 4, "title": "Nusa Penida Island", "desc": "Boat trip. Kelingking Beach, Angel's Billabong, snorkeling."},
+      {"day": 5, "title": "Beach & Spa Day", "desc": "Seminyak Beach. Full-day traditional Balinese spa treatment."},
+      {"day": 6, "title": "Uluwatu Sunset", "desc": "Uluwatu Temple. Kecak fire dance. Jimbaran seafood dinner."},
+      {"day": 7, "title": "Departure", "desc": "Breakfast. Souvenir shopping. Airport transfer."}
+    ],
+    "gallery": ["bali", "thailand", "dubai"]
+  },
+  {
+    "id": "singapore-modern", "category": "international", "title": "Singapore City Marvel",
+    "duration": "4 Days / 3 Nights", "price": "₹48,999", "priceNote": "per person",
+    "location": "Singapore", "image": "singapore",
+    "description": "Experience the Garden City's perfect blend of futuristic architecture, lush gardens, and world-class cuisine.",
+    "highlights": ["Marina Bay Sands", "Gardens by the Bay", "Sentosa Island", "Universal Studios", "Return Flights", "City-Center Hotel"],
+    "coordinates": [1.3521, 103.8198],
+    "mapTeaser": "The Garden City — futuristic marvels, lush gardens, and culinary perfection.",
+    "itinerary": [
+      {"day": 1, "title": "Arrival", "desc": "Airport transfer. Check-in. Evening at Marina Bay light show."},
+      {"day": 2, "title": "City Highlights", "desc": "Gardens by the Bay, Marina Bay Sands SkyPark, Merlion Park."},
+      {"day": 3, "title": "Sentosa Island", "desc": "Universal Studios Singapore. S.E.A. Aquarium. Cable car ride."},
+      {"day": 4, "title": "Departure", "desc": "Chinatown and Little India. Shopping at Orchard Road. Airport."}
+    ],
+    "gallery": ["singapore", "dubai", "thailand"]
+  },
+  {
+    "id": "kedarnath-divine", "category": "devotional", "title": "Kedarnath Sacred Yatra",
+    "duration": "6 Days / 5 Nights", "price": "₹19,999", "priceNote": "per person",
+    "location": "Kedarnath, Uttarakhand", "image": "kedarnath",
+    "description": "Embark on the ultimate Himalayan pilgrimage to the sacred Kedarnath Temple, nestled at 11,755 ft. Trek through stunning mountain trails and experience divine serenity.",
+    "highlights": ["Kedarnath Temple Darshan", "Helicopter Option Available", "Rishikesh Stopover", "Camping & Lodges", "Trek Guide Included", "All Meals"],
+    "coordinates": [30.7352, 79.0669],
+    "mapTeaser": "Sacred Himalayan shrine — Lord Shiva's abode at 11,755 feet amidst eternal snows.",
+    "itinerary": [
+      {"day": 1, "title": "Vizag to Delhi", "desc": "Flight to Delhi. Overnight transfer to Haridwar."},
+      {"day": 2, "title": "Haridwar to Guptkashi", "desc": "Drive to Guptkashi via Rishikesh, Devprayag. Check-in at lodge."},
+      {"day": 3, "title": "Trek to Kedarnath", "desc": "Drive to Gaurikund. 16km trek to Kedarnath. Evening at temple."},
+      {"day": 4, "title": "Kedarnath Darshan", "desc": "Early morning darshan at Kedarnath Temple. Visit Bhairavnath Temple."},
+      {"day": 5, "title": "Descent & Return", "desc": "Trek back to Gaurikund. Drive to Rishikesh. Evening Ganga Aarti."},
+      {"day": 6, "title": "Departure", "desc": "Morning at Rishikesh. Transfer to Delhi. Return flight to Vizag."}
+    ],
+    "gallery": ["kedarnath"]
+  },
+  {
+    "id": "puri-jagannath", "category": "devotional", "title": "Puri Jagannath Pilgrimage",
+    "duration": "4 Days / 3 Nights", "price": "₹9,999", "priceNote": "per person",
+    "location": "Puri, Odisha", "image": "puri",
+    "description": "Visit the legendary Jagannath Temple in Puri — one of the Char Dham. Explore the golden beach, Konark Sun Temple, and Chilika Lake.",
+    "highlights": ["Jagannath Temple VIP", "Konark Sun Temple", "Chilika Lake Boating", "Puri Beach Walk", "AC Train from Vizag", "Beachside Hotel"],
+    "coordinates": [19.8135, 85.8312],
+    "mapTeaser": "Home of Lord Jagannath — ancient Char Dham, golden beaches, and timeless devotion.",
+    "itinerary": [
+      {"day": 1, "title": "Vizag to Puri", "desc": "AC train to Puri. Check-in at beachside hotel. Evening at Puri Beach."},
+      {"day": 2, "title": "Jagannath Temple", "desc": "VIP darshan at Jagannath Temple. Visit Gundicha Temple. Evening at beach."},
+      {"day": 3, "title": "Konark & Chilika", "desc": "Morning at Konark Sun Temple. Afternoon boat ride at Chilika Lake."},
+      {"day": 4, "title": "Return", "desc": "Morning shopping for souvenirs. AC train back to Vizag."}
+    ],
+    "gallery": ["puri"]
+  },
+  {
+    "id": "maldives-luxury", "category": "international", "title": "Maldives Island Luxury",
+    "duration": "5 Days / 4 Nights", "price": "₹74,999", "priceNote": "per person",
+    "location": "Maldives", "image": "maldives",
+    "description": "Escape to paradise in the Maldives. Crystal-clear turquoise waters, overwater villas, world-class snorkeling, and unforgettable sunsets.",
+    "highlights": ["Overwater Villa Stay", "Snorkeling & Diving", "Sunset Dolphin Cruise", "Spa Treatment", "Return Flights", "All-Inclusive Meals"],
+    "coordinates": [3.2028, 73.2207],
+    "mapTeaser": "Paradise on Earth — turquoise lagoons, overwater villas, and pristine coral reefs.",
+    "itinerary": [
+      {"day": 1, "title": "Arrival in Malé", "desc": "Flight to Malé. Speedboat transfer to resort. Overwater villa check-in."},
+      {"day": 2, "title": "Ocean Adventures", "desc": "Morning snorkeling at coral reef. Afternoon kayaking. Sunset cruise."},
+      {"day": 3, "title": "Diving & Relaxation", "desc": "Scuba diving excursion. Afternoon spa treatment. Beach dinner."},
+      {"day": 4, "title": "Island Hopping", "desc": "Visit local island. Dolphin watching cruise. Farewell dinner."},
+      {"day": 5, "title": "Departure", "desc": "Sunrise yoga. Breakfast. Speedboat to Malé. Return flight."}
+    ],
+    "gallery": ["maldives"]
+  },
+  {
+    "id": "srilanka-heritage", "category": "international", "title": "Sri Lanka Heritage Trail",
+    "duration": "6 Days / 5 Nights", "price": "₹39,999", "priceNote": "per person",
+    "location": "Sri Lanka", "image": "srilanka",
+    "description": "Discover the Pearl of the Indian Ocean — from the ancient Sigiriya Rock Fortress to lush tea plantations and pristine southern beaches.",
+    "highlights": ["Sigiriya Rock Fortress", "Kandy Temple of Tooth", "Tea Plantation Tour", "Beach Day in Galle", "Return Flights", "Boutique Hotels"],
+    "coordinates": [7.8731, 80.7718],
+    "mapTeaser": "Pearl of the Indian Ocean — ancient fortresses, tea hills, and golden coastlines.",
+    "itinerary": [
+      {"day": 1, "title": "Arrival in Colombo", "desc": "Flight to Colombo. Transfer to Negombo. City walk and dinner."},
+      {"day": 2, "title": "Sigiriya & Dambulla", "desc": "Climb Sigiriya Rock Fortress. Visit Dambulla Cave Temple."},
+      {"day": 3, "title": "Kandy", "desc": "Drive to Kandy. Temple of the Sacred Tooth Relic. Cultural dance show."},
+      {"day": 4, "title": "Tea Country", "desc": "Train ride to Nuwara Eliya. Tea plantation tour. Colonial town walk."},
+      {"day": 5, "title": "Galle & Beaches", "desc": "Drive to Galle. Dutch Fort. Beach relaxation at Unawatuna."},
+      {"day": 6, "title": "Departure", "desc": "Transfer to Colombo airport. Return flight."}
+    ],
+    "gallery": ["srilanka"]
+  }
+]

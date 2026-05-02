@@ -1,0 +1,41 @@
+.amenities{background:var(--color-bg);position:relative;overflow:hidden}
+.amenities::before{content:'';position:absolute;top:-200px;right:-200px;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(232,148,58,0.06) 0%,transparent 70%);pointer-events:none}
+.amenities-header{text-align:center;margin-bottom:var(--space-16)}
+.amenities-header .section-subtitle{margin-inline:auto}
+.amenities-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--space-6);margin-bottom:var(--space-20)}
+.amenity-card{padding:var(--space-10) var(--space-6);border-radius:var(--radius-xl);background:var(--color-surface);border:1px solid var(--color-border);text-align:center;transition:all var(--transition-slow)}
+.amenity-card:hover{background:var(--color-surface-light);border-color:rgba(232,148,58,0.25);transform:translateY(-6px)}
+.amenity-icon{width:64px;height:64px;margin-inline:auto;margin-bottom:var(--space-6);display:flex;align-items:center;justify-content:center;border-radius:var(--radius-lg);background:linear-gradient(135deg,rgba(232,148,58,0.15),rgba(232,148,58,0.05));color:var(--color-accent)}
+.amenity-icon svg{width:28px;height:28px;stroke:currentColor;stroke-width:1.5;fill:none}
+.amenity-title{font-size:var(--fs-md);font-weight:var(--fw-bold);margin-bottom:var(--space-3)}
+.amenity-desc{font-size:var(--fs-sm);color:var(--color-text-sec);line-height:1.75}
+.amenities-stats{display:flex;justify-content:center;gap:var(--space-16);margin-bottom:var(--space-20);padding:var(--space-10) 0;border-top:1px solid var(--color-border);border-bottom:1px solid var(--color-border)}
+.stat-item{text-align:center}
+.stat-number{font-size:var(--fs-4xl);font-weight:var(--fw-extrabold);color:var(--color-accent);letter-spacing:-0.03em;line-height:1}
+.stat-label{font-size:var(--fs-sm);color:var(--color-text-sec);margin-top:var(--space-2);font-weight:var(--fw-medium)}
+.partners-section{text-align:center}
+.partners-title{font-size:var(--fs-xs);font-weight:var(--fw-semibold);color:var(--color-text-sec);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:var(--space-8)}
+.marquee-wrapper{overflow:hidden;position:relative;width:100%}
+.marquee-wrapper::before,.marquee-wrapper::after{content:'';position:absolute;top:0;bottom:0;width:120px;z-index:2;pointer-events:none}
+.marquee-wrapper::before{left:0;background:linear-gradient(90deg,var(--color-bg),transparent)}
+.marquee-wrapper::after{right:0;background:linear-gradient(270deg,var(--color-bg),transparent)}
+.marquee-track{display:flex;gap:var(--space-12);animation:marquee 30s linear infinite;width:max-content}
+.marquee-track:hover{animation-play-state:paused}
+@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.partner-logo{display:flex;align-items:center;justify-content:center;padding:var(--space-4) var(--space-8);border:1px solid var(--color-border);border-radius:var(--radius-md);font-size:var(--fs-base);font-weight:var(--fw-bold);color:var(--color-text-muted);white-space:nowrap;transition:all var(--transition-normal);letter-spacing:0.05em;min-width:160px;height:60px}
+.partner-logo:hover{color:var(--color-text-sec);border-color:var(--color-border-hover);background:rgba(255,255,255,0.02)}
+@media(max-width:1024px){.amenities-grid{grid-template-columns:repeat(2,1fr)}.amenities-stats{gap:var(--space-10)}}
+@media(max-width:640px){
+  .amenities-header{margin-bottom:var(--space-10)}
+  .amenities-grid{grid-template-columns:1fr;gap:var(--space-4);margin-bottom:var(--space-12)}
+  .amenity-card{padding:var(--space-6) var(--space-5);display:flex;flex-direction:row;text-align:left;gap:var(--space-4)}
+  .amenity-icon{margin:0;flex-shrink:0;width:52px;height:52px}
+  .amenity-icon svg{width:24px;height:24px}
+  .amenity-title{font-size:var(--fs-sm);margin-bottom:var(--space-1)}
+  .amenity-desc{font-size:var(--fs-xs);line-height:1.6}
+  .amenities-stats{flex-wrap:wrap;gap:var(--space-6);padding:var(--space-6) 0;margin-bottom:var(--space-12)}
+  .stat-number{font-size:var(--fs-2xl)}
+  .stat-label{font-size:var(--fs-xs)}
+  .partner-logo{min-width:120px;height:48px;padding:var(--space-3) var(--space-5);font-size:var(--fs-sm)}
+  .marquee-track{gap:var(--space-6)}
+}

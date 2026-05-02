@@ -1,0 +1,91 @@
+/* ============================================
+   Typography System
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+.heading-hero {
+  font-size: var(--fs-hero);
+  font-weight: var(--fw-extrabold);
+  line-height: var(--lh-tight);
+  letter-spacing: -0.04em;
+}
+
+.heading-1 {
+  font-size: var(--fs-4xl);
+  font-weight: var(--fw-bold);
+  letter-spacing: -0.03em;
+}
+
+.heading-2 {
+  font-size: var(--fs-3xl);
+  font-weight: var(--fw-bold);
+  letter-spacing: -0.02em;
+}
+
+.heading-3 {
+  font-size: var(--fs-2xl);
+  font-weight: var(--fw-semibold);
+  letter-spacing: -0.01em;
+}
+
+.heading-4 {
+  font-size: var(--fs-xl);
+  font-weight: var(--fw-semibold);
+}
+
+.body-lg {
+  font-size: var(--fs-lg);
+  line-height: var(--lh-normal);
+}
+
+.body-md {
+  font-size: var(--fs-md);
+  line-height: var(--lh-normal);
+}
+
+.body-sm {
+  font-size: var(--fs-sm);
+  line-height: var(--lh-normal);
+}
+
+.caption {
+  font-size: var(--fs-xs);
+  line-height: var(--lh-normal);
+  letter-spacing: var(--ls-wide);
+  text-transform: uppercase;
+  font-weight: var(--fw-semibold);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--color-accent) 0%, #f0c27f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section-label {
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-bold);
+  letter-spacing: var(--ls-wider);
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: var(--space-4);
+  display: inline-block;
+}
+
+.section-title {
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  font-weight: var(--fw-bold);
+  letter-spacing: -0.03em;
+  line-height: var(--lh-tight);
+  color: var(--color-text);
+  margin-bottom: var(--space-6);
+}
+
+.section-subtitle {
+  font-size: var(--fs-lg);
+  color: var(--color-text-secondary);
+  line-height: var(--lh-relaxed);
+  max-width: 640px;
+}

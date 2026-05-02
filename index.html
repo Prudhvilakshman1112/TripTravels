@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tour Trips — Premium Travel Agency | Vizag</title>
+  <meta name="description" content="Tour Trips: premium Vizag-based travel agency offering all-inclusive devotional, summer, and international packages."/>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+</head>
+<body>
+
+  <!-- PRE-LOADER -->
+  <div id="preloader" class="preloader">
+    <canvas id="preloader-canvas" class="preloader-canvas" width="280" height="280"></canvas>
+    <div id="preloader-brand" class="preloader-brand">
+      <div class="preloader-brand-name">
+        <span>T</span><span>o</span><span>u</span><span>r</span><span>&nbsp;</span><span class="accent">T</span><span class="accent">r</span><span class="accent">i</span><span class="accent">p</span><span class="accent">s</span>
+      </div>
+      <div class="preloader-tagline">Your Dream Trip, Our Master Plan</div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav class="nav" id="main-nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="18" fill="none" stroke="#fff" stroke-width="1.5"/>
+          <ellipse cx="20" cy="20" rx="10" ry="18" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+          <line x1="2" y1="20" x2="38" y2="20" stroke="rgba(255,255,255,0.3)" stroke-width="0.8"/>
+          <path d="M8 15 Q20 8 32 15" fill="none" stroke="#e8943a" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="32" cy="15" r="2.5" fill="#e8943a"/>
+        </svg>
+        <span class="nav-logo-text">Tour <span>Trips</span></span>
+      </a>
+      <div class="nav-links">
+        <a href="#hero" class="nav-link">Home</a>
+        <a href="#packages" class="nav-link">Packages</a>
+        <a href="#amenities" class="nav-link">Why Us</a>
+        <a href="#feedback" class="nav-link">Contact</a>
+        <a href="#packages" class="btn btn-primary nav-cta">Explore Trips</a>
+      </div>
+      <div class="nav-hamburger" id="nav-hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </nav>
+  <div class="nav-mobile-menu" id="nav-mobile-menu">
+    <a href="#hero" class="nav-link">Home</a>
+    <a href="#packages" class="nav-link">Packages</a>
+    <a href="#amenities" class="nav-link">Why Us</a>
+    <a href="#feedback" class="nav-link">Contact</a>
+  </div>
+
+  <!-- HERO + INTERACTIVE ROUTE MAP -->
+  <section class="hero section" id="hero">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge"><span class="hero-badge-dot"></span>Based in Vizag, India</div>
+        <h1 class="heading-hero hero-title">
+          <span class="word"><span class="word-inner">Your</span></span>
+          <span class="word"><span class="word-inner">Dream</span></span>
+          <span class="word"><span class="word-inner text-gradient">Trip,</span></span><br/>
+          <span class="word"><span class="word-inner">Our</span></span>
+          <span class="word"><span class="word-inner">Master</span></span>
+          <span class="word"><span class="word-inner text-gradient">Plan.</span></span>
+        </h1>
+        <p class="hero-description">From sacred temples to international shores — we craft all-inclusive journeys with premium stays, managed travel, and personal care.</p>
+        <div class="hero-actions">
+          <a href="#packages" class="btn btn-primary">Explore Packages</a>
+          <a href="#feedback" class="btn btn-secondary">Get in Touch</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><div class="hero-stat-number">500+</div><div class="hero-stat-label">Happy Travelers</div></div>
+          <div class="hero-stat"><div class="hero-stat-number">50+</div><div class="hero-stat-label">Destinations</div></div>
+          <div class="hero-stat"><div class="hero-stat-number">4.9★</div><div class="hero-stat-label">Rating</div></div>
+        </div>
+      </div>
+      <div class="hero-map-wrapper">
+        <div id="hero-map"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRAVEL CATALOG -->
+  <section class="catalog section" id="packages">
+    <div class="container">
+      <div class="catalog-header">
+        <span class="section-label">Our Packages</span>
+        <h2 class="section-title">Curated Experiences,<br/>Crafted for You</h2>
+        <p class="section-subtitle">Choose from devotional pilgrimages, thrilling summer escapes, or luxurious international getaways — all fully managed from Vizag.</p>
+      </div>
+      <div class="catalog-tabs" id="catalog-tabs"></div>
+      <div class="catalog-grid" id="catalog-grid"></div>
+    </div>
+  </section>
+
+  <!-- GROUP TRIPS & CUSTOMIZATION -->
+  <section class="groups section" id="groups">
+    <div class="container">
+      <div class="groups-inner">
+        <div class="groups-content">
+          <span class="section-label">Group Trips & Customization</span>
+          <h2 class="section-title">Travel Together,<br/>Your Way</h2>
+          <p class="section-subtitle">Planning a trip with family, friends, or colleagues? We offer fully customized group packages with exclusive perks.</p>
+          <div class="groups-features">
+            <div class="groups-feature">
+              <div class="groups-feature-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+              <div><div class="groups-feature-title">Private Group Vehicles</div><div class="groups-feature-desc">Groups of 10+ get dedicated private AC buses or tempo travellers for the entire trip.</div></div>
+            </div>
+            <div class="groups-feature">
+              <div class="groups-feature-icon"><svg viewBox="0 0 24 24"><path d="M12 20h9M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div>
+              <div><div class="groups-feature-title">Custom Itineraries</div><div class="groups-feature-desc">Tell us your dream destinations and preferences — we'll design a bespoke itinerary just for your group.</div></div>
+            </div>
+            <div class="groups-feature">
+              <div class="groups-feature-icon"><svg viewBox="0 0 24 24"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div>
+              <div><div class="groups-feature-title">Special Group Pricing</div><div class="groups-feature-desc">Enjoy exclusive discounts and per-person savings that get better as your group grows larger.</div></div>
+            </div>
+          </div>
+        </div>
+        <div class="groups-visual">
+          <div class="groups-card">
+            <div class="groups-card-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+            <h3 class="groups-card-title">Group Trip Benefits</h3>
+            <p class="groups-card-desc">The more you travel together, the more you save. Here's what your group unlocks:</p>
+            <div class="groups-card-perks">
+              <div class="groups-card-perk"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Private vehicle for groups of 10+</div>
+              <div class="groups-card-perk"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Dedicated trip coordinator</div>
+              <div class="groups-card-perk"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Custom meal preferences</div>
+              <div class="groups-card-perk"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Flexible departure dates</div>
+              <div class="groups-card-perk"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Up to 20% group discount</div>
+              <div class="groups-card-perk"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Free trip for group organizer (20+)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AMENITIES -->
+  <section class="amenities section" id="amenities">
+    <div class="container">
+      <div class="amenities-header">
+        <span class="section-label">The All-Inclusive Promise</span>
+        <h2 class="section-title">Everything Taken Care Of</h2>
+        <p class="section-subtitle">Sit back and enjoy. We handle every detail — from the first mile to the last memory.</p>
+      </div>
+      <div class="amenities-grid">
+        <div class="amenity-card"><div class="amenity-icon"><svg viewBox="0 0 24 24"><path d="M3 21V7a2 2 0 012-2h6v16M21 21V11a2 2 0 00-2-2h-4v12M1 21h22"/><path d="M9 7h1M9 11h1M9 15h1M15 11h1M15 15h1"/></svg></div><h3 class="amenity-title">Premium Accommodation</h3><p class="amenity-desc">Handpicked 3-5 star hotels and resorts that match the standard your journey deserves.</p></div>
+        <div class="amenity-card"><div class="amenity-icon"><svg viewBox="0 0 24 24"><path d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.4-.1.9.3 1.1l5.6 3.2-3.5 3.5-2.2-.7c-.4-.1-.8 0-1 .3l-.2.3c-.2.3-.1.7.1.9l3.3 2.5 2.5 3.3c.2.3.6.3.9.1l.3-.2c.3-.2.4-.6.3-1l-.7-2.2 3.5-3.5 3.2 5.6c.2.4.7.5 1.1.3l.5-.3c.4-.2.6-.6.5-1.1z"/></svg></div><h3 class="amenity-title">Managed Travel</h3><p class="amenity-desc">Flights, AC buses, private cabs — all transportation arranged and included.</p></div>
+        <div class="amenity-card"><div class="amenity-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 00-16 0"/></svg></div><h3 class="amenity-title">Expert Guides</h3><p class="amenity-desc">Knowledgeable local guides who bring every destination to life with stories.</p></div>
+        <div class="amenity-card"><div class="amenity-icon"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg></div><h3 class="amenity-title">24/7 Support</h3><p class="amenity-desc">Round-the-clock assistance from our Vizag team. One call away.</p></div>
+      </div>
+      <div class="amenities-stats">
+        <div class="stat-item"><div class="stat-number" data-target="500" data-suffix="+">0</div><div class="stat-label">Happy Travelers</div></div>
+        <div class="stat-item"><div class="stat-number" data-target="50" data-suffix="+">0</div><div class="stat-label">Destinations</div></div>
+        <div class="stat-item"><div class="stat-number" data-target="120" data-suffix="+">0</div><div class="stat-label">Trips Completed</div></div>
+        <div class="stat-item"><div class="stat-number" data-target="98" data-suffix="%">0</div><div class="stat-label">Satisfaction Rate</div></div>
+      </div>
+      <div class="partners-section">
+        <div class="partners-title">Trusted Collaborations</div>
+        <div class="marquee-wrapper"><div class="marquee-track">
+          <div class="partner-logo">Taj Hotels</div><div class="partner-logo">IndiGo Airlines</div><div class="partner-logo">IRCTC</div><div class="partner-logo">MakeMyTrip</div><div class="partner-logo">Booking.com</div><div class="partner-logo">Emirates</div><div class="partner-logo">OYO Rooms</div><div class="partner-logo">Cleartrip</div>
+          <div class="partner-logo">Taj Hotels</div><div class="partner-logo">IndiGo Airlines</div><div class="partner-logo">IRCTC</div><div class="partner-logo">MakeMyTrip</div><div class="partner-logo">Booking.com</div><div class="partner-logo">Emirates</div><div class="partner-logo">OYO Rooms</div><div class="partner-logo">Cleartrip</div>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEEDBACK -->
+  <section class="feedback section" id="feedback">
+    <div class="container">
+      <div class="feedback-inner">
+        <div class="feedback-content">
+          <span class="section-label">Get in Touch</span>
+          <h2 class="section-title">Let's Plan Your<br/>Perfect Journey</h2>
+          <p class="section-subtitle">Share your travel dreams with us. We'll craft a personalized itinerary and reach out via WhatsApp.</p>
+        </div>
+        <div class="feedback-form-card">
+          <form id="feedback-form">
+            <div class="form-group"><label class="form-label" for="f-name">Full Name</label><input class="form-input" type="text" id="f-name" name="name" placeholder="Your name" required/><div class="form-error">Please enter your name</div></div>
+            <div class="form-group"><label class="form-label" for="f-email">Email</label><input class="form-input" type="email" id="f-email" name="email" placeholder="you@example.com" required/><div class="form-error">Please enter a valid email</div></div>
+            <div class="form-group"><label class="form-label" for="f-interest">Interest</label><select class="form-select" id="f-interest" name="interest" required><option value="" disabled selected>Select your interest</option><option>Devotional Tours</option><option>Summer Escapes</option><option>International Trips</option><option>Custom Package</option></select><div class="form-error">Please select an interest</div></div>
+            <div class="form-group"><label class="form-label" for="f-msg">Message</label><textarea class="form-textarea" id="f-msg" name="message" placeholder="Tell us about your dream trip..." required></textarea><div class="form-error">Please enter a message</div></div>
+            <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid" style="grid-template-columns:1.5fr 1fr">
+        <div>
+          <a href="#" class="nav-logo" style="margin-bottom:4px"><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="18" fill="none" stroke="#fff" stroke-width="1.5"/><ellipse cx="20" cy="20" rx="10" ry="18" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1"/><line x1="2" y1="20" x2="38" y2="20" stroke="rgba(255,255,255,0.2)" stroke-width="0.8"/><path d="M8 15 Q20 8 32 15" fill="none" stroke="#e8943a" stroke-width="2" stroke-linecap="round"/><circle cx="32" cy="15" r="2.5" fill="#e8943a"/></svg><span class="nav-logo-text">Tour <span>Trips</span></span></a>
+          <p class="footer-brand-desc">Your trusted Vizag-based travel partner. Dream destinations, real memories, all-inclusive packages.</p>
+          <div class="footer-social">
+            <!-- Instagram - Gradient -->
+            <a href="#" class="footer-social-link" aria-label="Instagram" style="background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="#fff" stroke="none"/></svg>
+            </a>
+            <!-- Facebook - Blue -->
+            <a href="#" class="footer-social-link" aria-label="Facebook" style="background:#1877F2">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <!-- YouTube - Red -->
+            <a href="#" class="footer-social-link" aria-label="YouTube" style="background:#FF0000">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.43z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48" fill="#fff"/></svg>
+            </a>
+            <!-- WhatsApp - Green -->
+            <a href="https://wa.me/917569010557" target="_blank" rel="noopener" class="footer-social-link" aria-label="WhatsApp" style="background:#25D366">
+              <svg viewBox="0 0 24 24"><path fill="#fff" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div><h4 class="footer-col-title">Reach Us</h4>
+          <div class="footer-links">
+            <a href="https://wa.me/917569010557" target="_blank" class="footer-link">WhatsApp: +91 75690 10557</a>
+            <span class="footer-link">Email: info@tourtrips.in</span>
+            <span class="footer-link">Vizag, Andhra Pradesh, India</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom"><p class="footer-copy">&copy; 2026 Tour Trips. All rights reserved.</p><div class="footer-legal"><a href="#">Terms</a><a href="#">Privacy</a></div></div>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="modal-overlay"><div class="modal" id="package-modal"></div></div>
+
+  <!-- FLOATING WHATSAPP -->
+  <a class="whatsapp-float" id="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp"><span class="whatsapp-float-pulse"></span><span class="wa-icon"></span></a>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
