@@ -37,7 +37,7 @@ export function initFeedback(gsap) {
     const message = data.get('message');
 
     const waMessage = `Hello Tour Trips!\n\nName: ${name}\nEmail: ${email}\nInterest: ${interest}\nMessage: ${message}`;
-    const url = `https://wa.me/917569010557?text=${encodeURIComponent(waMessage)}`;
+    const url = `https://wa.me/919848419436?text=${encodeURIComponent(waMessage)}`;
 
     // Show success state
     const btn = form.querySelector('.form-submit');
